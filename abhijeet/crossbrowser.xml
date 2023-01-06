@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Abhijeet Test Suit" Thread-count="2" parallel="tests">
+  <test name="chrometest" >
+  <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="testCases.TC_001_AccountRegistration" />
+    </classes>
+  </test>
+
+    <test name="edgetest" >
+  <parameter name="browser" value="edge"/>
+    <classes>
+       <class name="testCases.TC_001_AccountRegistration" />
+    </classes>
+  </test>
+  
+    <test name="firefoxtest" >
+  <parameter name="browser" value="firefox"/>
+    <classes>
+       <class name="testCases.TC_001_AccountRegistration" />
+    </classes>
+  </test>
+  
+</suite>

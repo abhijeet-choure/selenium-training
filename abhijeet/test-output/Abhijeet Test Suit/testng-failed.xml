@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Abhijeet Test Suit]">
+  <test thread-count="5" name="Abhijeet Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistration">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_account_Registration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </classes>
+  </test> <!-- Abhijeet Tests(failed) -->
+</suite> <!-- Failed suite [Abhijeet Test Suit] -->

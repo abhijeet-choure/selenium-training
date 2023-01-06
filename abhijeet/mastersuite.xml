@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Abhijeet Test Suit" >
+  <test name="Abhijeet Tests" >
+  <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="testCases.TC_001_AccountRegistration" />
+    </classes>
+  </test>
+
+</suite>
