@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-06T21:08:26 IST" name="Abhijeet Test Suit" finished-at="2023-01-06T21:08:50 IST" duration-ms="23947">
+  <suite started-at="2023-01-08T18:47:00 IST" name="Abhijeet Test Suit" finished-at="2023-01-08T18:48:05 IST" duration-ms="65564">
     <groups>
     </groups>
-    <test started-at="2023-01-06T21:08:26 IST" name="Abhijeet Tests" finished-at="2023-01-06T21:08:50 IST" duration-ms="23947">
+    <test started-at="2023-01-08T18:47:00 IST" name="Abhijeet Tests" finished-at="2023-01-08T18:48:05 IST" duration-ms="65564">
       <class name="testCases.TC_001_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@704f1591]" started-at="2023-01-06T21:08:26 IST" name="setup" finished-at="2023-01-06T21:08:38 IST" duration-ms="12672" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@3fb6cf60]" started-at="2023-01-08T18:47:01 IST" name="setup" finished-at="2023-01-08T18:47:53 IST" duration-ms="52388" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@704f1591]" started-at="2023-01-06T21:08:38 IST" name="test_account_Registration" finished-at="2023-01-06T21:08:48 IST" duration-ms="9435" status="FAIL">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@3fb6cf60]" started-at="2023-01-08T18:47:53 IST" name="test_account_Registration" finished-at="2023-01-08T18:48:04 IST" duration-ms="11075" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -27,7 +27,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.fail(Assert.java:115)
-at testCases.TC_001_AccountRegistration.test_account_Registration(TC_001_AccountRegistration.java:66)
+at testCases.TC_001_AccountRegistration.test_account_Registration(TC_001_AccountRegistration.java:67)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@704f1591]" started-at="2023-01-06T21:08:48 IST" name="tearDown" finished-at="2023-01-06T21:08:50 IST" duration-ms="1771" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@3fb6cf60]" started-at="2023-01-08T18:48:04 IST" name="tearDown" finished-at="2023-01-08T18:48:05 IST" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

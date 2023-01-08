@@ -130,7 +130,7 @@
                   </a> <!-- test_account_Registration -->
                   <span class="method-name">test_account_Registration</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC_001_AccountRegistration.test_account_Registration(TC_001_AccountRegistration.java:66)
+	at testCases.TC_001_AccountRegistration.test_account_Registration(TC_001_AccountRegistration.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -148,6 +148,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Abhijeet Test Suit&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Abhijeet Tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -195,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_account_Registration')
 data.setCell(0, 2, 'testCases.TC_001_AccountRegistration')
-data.setCell(0, 3, 9435);
+data.setCell(0, 3, 11075);
 window.suiteTableData['Abhijeet_Test_Suit']= { tableData: data, tableDiv: 'times-div-Abhijeet_Test_Suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Abhijeet_Test_Suit">
               </div> <!-- times-div-Abhijeet_Test_Suit -->
             </div> <!-- times-div -->
@@ -235,11 +238,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_account_Registration</span>
-                <span class="method-start">12684 ms</span>
+                <span class="method-start">52414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22129 ms</span>
+                <span class="method-start">63529 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

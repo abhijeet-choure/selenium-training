@@ -27,7 +27,7 @@ public class TC_001_AccountRegistration extends BaseClass{
     	
     	 AccountRegistrationPage regpage=new AccountRegistrationPage(driver);
     	 
-    	 regpage.setFirstName("Jhon");
+    	 regpage.setFirstName("Jho");
     	 logger.info("Provided FirstName");
     	 regpage.setLasttName("canedy");
     	 logger.info("Provided LastName");
@@ -55,7 +55,8 @@ public class TC_001_AccountRegistration extends BaseClass{
     	 }
     	 else
     	 {
-    		 logger.info("Account Registration Failed");
+    		 logger.error("Account Registration Failed");
+    		 captureScreen(driver,"test_account_Registration");
     		 Assert.assertTrue(false);
     	 }
     	 }
@@ -67,6 +68,8 @@ public class TC_001_AccountRegistration extends BaseClass{
     	 }
     	 logger.info("Finshed TC_001_AccountRegistration");
      }
+
+
      
 }
     

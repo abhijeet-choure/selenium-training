@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Abhijeet Test Suit" >
+
+  <listeners>
+  	<listener class-name="utilities.ExtentReportManager" />
+  </listeners>
+
   <test name="Abhijeet Tests" >
   <parameter name="browser" value="chrome"/>
     <classes>
