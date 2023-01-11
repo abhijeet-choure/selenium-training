@@ -20,7 +20,7 @@ public class HomePage {
 	@FindBy(linkText="Register")
 	WebElement lnkRegister;
 
-	@FindBy(linkText="login")
+	@FindBy(xpath="//a[@class='dropdown-item'][normalize-space()='Login']")
 	WebElement lnkLogin;
 
 

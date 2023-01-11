@@ -61,14 +61,24 @@ public ResourceBundle rb;
    	 driver.close();
     }
    	 
-	public String randomestring() {
-		String genratedString = RandomStringUtils.randomAlphabetic(5);
-		return (genratedString);
+    public String randomeString()
+	{
+		String generatedString=RandomStringUtils.randomAlphabetic(5);
+		return generatedString;
 	}
-	public int randomeNumber() {
-		String genratedString2 = RandomStringUtils.randomNumeric(5);
-		return(Integer.parseInt(genratedString2));
+	
+	public String randomeNumber()
+	{
+		String generatedString=RandomStringUtils.randomNumeric(10);
+		return generatedString;
+	}
+	
+	public String randomAlphaNumeric()
+	{
+		String str=RandomStringUtils.randomAlphabetic(5);
+		String num=RandomStringUtils.randomNumeric(3);
 		
+		return (str+"@"+num);
 	}
 	public void captureScreen(WebDriver driver,String tname) throws IOException {
 
@@ -80,5 +90,7 @@ public ResourceBundle rb;
 		FileUtils.copyFile(source, target);
 		
 	}
+
+	
 	
 }

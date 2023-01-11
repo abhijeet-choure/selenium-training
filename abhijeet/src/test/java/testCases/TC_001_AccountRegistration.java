@@ -26,27 +26,28 @@ public class TC_001_AccountRegistration extends BaseClass{
     	 logger.info("Clicked on Register");
     	
     	 AccountRegistrationPage regpage=new AccountRegistrationPage(driver);
-    	 
-    	 regpage.setFirstName("Jho");
-    	 logger.info("Provided FirstName");
-    	 regpage.setLasttName("canedy");
-    	 logger.info("Provided LastName");
-    	 regpage.setEmail(randomestring()+"gmail.com");
-    	 logger.info("Provided Email");
-    	// regpage.setTelephone("65656565");
-    	 regpage.setPassword("abcxyz");
-    	 logger.info("Provided Password");
-    	 //regpage.setConfirmPassword("abcxyz");
-    	 //logger.info("Provided ConfirmPassword");
+    	 regpage.setFirstName(randomeString().toUpperCase());
+ 		regpage.setLastName(randomeString().toUpperCase());
+ 		regpage.setEmail(randomeString()+"@gmail.com");// randomly generated the email
+ 		//regpage.setTelephone(randomeNumber());
+ 		
+ 		String password=randomAlphaNumeric();
+ 		regpage.setPassword(password);
+ 		//regpage.setConfirmPassword(password);
+ 		
+ 		regpage.setPrivacyPolicy();
+ 	
+ 		logger.info("clicking on continue");
+ 		regpage.clickContinue();
+ 	
+ 	
+ 		//String confmsg=regpage.getConfirmationMsg();
+ 		
+ 		logger.info("verifying customer registration");
      	
-    	 regpage.setPrivacyPolicy();
     	 
-    	 regpage.clickContinue();
-    	 logger.info("Clicked on Continue");
-     	
-    	 
-    	 String confmsg=regpage.getConfirmationMsg();
-    	 if (confmsg.equals("Your Account Has Been Created!"))
+    	 String confmsg1=regpage.getConfirmationMsg();
+    	 if (confmsg1.equals("Your Account Has Been Created!"))
     	 {
     		 logger.info("Account Registration Success");
     	    	

@@ -7,13 +7,13 @@
   <test thread-count="5" name="Abhijeet Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegistration">
+      <class name="testCases.TC_002_LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="test_account_Registration"/>
+          <include name="test_Login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_001_AccountRegistration -->
+      </class> <!-- testCases.TC_002_LoginTest -->
     </classes>
   </test> <!-- Abhijeet Tests(failed) -->
 </suite> <!-- Failed suite [Abhijeet Test Suit] -->

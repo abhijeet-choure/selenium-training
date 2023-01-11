@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Abhijeet_Test_Suit">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Abhijeet_Test_Suit" title="testCases.TC_001_AccountRegistration" class="method navigator-link" hash-for-method="test_account_Registration">test_account_Registration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Abhijeet_Test_Suit" title="testCases.TC_002_LoginTest" class="method navigator-link" hash-for-method="test_Login">test_Login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Abhijeet_Test_Suit -->
@@ -121,18 +121,18 @@
           <div class="suite-Abhijeet_Test_Suit-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC_001_AccountRegistration</span>
+              <span class="class-name">testCases.TC_002_LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_account_Registration">
-                  </a> <!-- test_account_Registration -->
-                  <span class="method-name">test_account_Registration</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC_001_AccountRegistration.test_account_Registration(TC_001_AccountRegistration.java:67)
+                  <a name="test_Login">
+                  </a> <!-- test_Login -->
+                  <span class="method-name">test_Login</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_002_LoginTest.test_Login(TC_002_LoginTest.java:55)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -154,7 +154,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Abhijeet Tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_001_AccountRegistration&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_002_LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Abhijeet Tests --&gt;
 &lt;/suite&gt; &lt;!-- Abhijeet Test Suit --&gt;
@@ -196,14 +196,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_account_Registration')
-data.setCell(0, 2, 'testCases.TC_001_AccountRegistration')
-data.setCell(0, 3, 11075);
+data.setCell(0, 1, 'test_Login')
+data.setCell(0, 2, 'testCases.TC_002_LoginTest')
+data.setCell(0, 3, 20950);
 window.suiteTableData['Abhijeet_Test_Suit']= { tableData: data, tableDiv: 'times-div-Abhijeet_Test_Suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Abhijeet_Test_Suit">
               </div> <!-- times-div-Abhijeet_Test_Suit -->
             </div> <!-- times-div -->
@@ -229,7 +229,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_001_AccountRegistration</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_002_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -237,12 +237,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">test_account_Registration</span>
-                <span class="method-start">52414 ms</span>
+                <span class="method-name">test_Login</span>
+                <span class="method-start">6294 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63529 ms</span>
+                <span class="method-start">27271 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
